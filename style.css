@@ -1,0 +1,54 @@
+body{
+    background-image: url('img-5.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#intro{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main-buttons{
+    align-self: center;
+    display: flex;
+    padding:15px;
+    gap: 30px;
+}
+
+#score{
+    align-self: center;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.btn{
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    font-size: 50px;
+    color: white;
+    background-color: #990000;
+    
+}
+
+#result{
+    align-self: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.refreshBtn{
+    width: 150px;
+    height: 75px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    background-color: #990000;
+}

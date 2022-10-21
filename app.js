@@ -93,6 +93,7 @@ else if(compScore===4){
     scoreContainer.appendChild(compWon);
     let refreshButton=document.createElement('button');
     refreshButton.textContent='Restart Game';
+    refreshButton.classList.add('refreshBtn')
     scoreContainer.appendChild(refreshButton);
     refreshButton.addEventListener('click',function(){location.reload()});
 
@@ -104,8 +105,10 @@ else if(playerScore===4){
     scoreContainer.appendChild(playerWon);
     let refreshButton=document.createElement('button');
     refreshButton.textContent='Restart Game';
+    refreshButton.classList.add('refreshBtn')
     scoreContainer.appendChild(refreshButton);
     refreshButton.addEventListener('click',function(){location.reload()});
+
 
 }
 }
